@@ -27,8 +27,10 @@ public class Revisao2 {
       peE = 7.00; //Na verdade é duas vezea de 3,50 por isso 7 (3,50 + 3,50)
 
       
+      Scanner ler =new Scanner(System.in);
+      
       System.out.println("Diga por favor quantos galos:");
-      galo galos = scan.nextDouble();
+      galo galos = scanner.nextDouble();
       galo = peD + peE;
       
       galo2= galo*(peE+peD);
